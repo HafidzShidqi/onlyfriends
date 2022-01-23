@@ -3,3 +3,14 @@
   background-size: cover;
   height: 100vh;
 }
+
+.card img {
+  object-fit: cover;
+}
+.card {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#boys .card {
+  box-shadow: 5px 5px 5px rgba(116, 116, 116, 0.3);
+}

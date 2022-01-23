@@ -23,7 +23,7 @@
 
   <body>
     <!-- Awal Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#"> <img src="img/logo-removebg-preview.png" alt="logo" style="width: 131px" /> OnlyFriends</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,11 +35,17 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Meet With </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#boys">Boys</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#girls">Girls</a></li>
+              </ul>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
@@ -64,15 +70,15 @@
     <!-- Akhir Jumbotron -->
 
     <!-- About -->
-    <div class="container-fluid about pt-5 pb-5">
+    <div class="container-fluid pt-5 pb-5 text-light" id="about" style="background-color: #161c20">
       <div class="container text-center">
-        <h2 class="display-3" id="about">About</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sequi!</p>
-        <div class="row pt-4 mt-2">
+        <h2 class="display-3 mt-5">About</h2>
+        <p>OnlyFriends is a dating platform that can interact with anyone around the world.</p>
+        <div class="row pt-4 mt-md-2 mt-lg-5">
           <div class="col-md-4 mb-2">
             <i class="fa-solid fa-hand-holding-heart fa-4x"></i>
             <h3 class="mt-4">Vision</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, deleniti.</p>
+            <p>Provide a media for someone who are being friendzoned to be able to find her/his love.</p>
           </div>
           <div class="col-md-4 mb-2">
             <i class="fa-solid fa-heart fa-5x"></i>
@@ -88,6 +94,146 @@
       </div>
     </div>
     <!-- Akhir About -->
+
+    <!-- Boys -->
+    <div class="container-fluid boys pt-5 pb-5" id="boys" style="background-color: #161c20">
+      <div class="container text-center">
+        <h2 class="display-3 mt-5 text-light mb-5">Meet The Boys!</h2>
+        <div class="row gx-5 gy-5">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-italo-melo-2379004.jpg" class="card-img-top" alt="..." width="200px" height="300px" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-italo-melo-2379005.jpg" class="card-img-top" alt="..." width="200px" height="300px" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-juan-pablo-serrano-arenas-1139743.jpg" class="card-img-top" alt="..." width="200px" height="300px" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-linkedin-sales-navigator-2182970.jpg" class="card-img-top" alt="..." width="200px" height="300px" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-moose-photos-1036627.jpg" class="card-img-top" alt="..." width="200px" height="300px" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-pranav-digwal-32976.jpg" class="card-img-top" alt="..." width="200px" height="300px" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Boys -->
+
+    <!-- Girls -->
+    <div class="container-fluid boys pt-5 pb-5" id="girls">
+      <div class="container text-center">
+        <h2 class="display-3 mt-5 mb-5">Meet The Girls!</h2>
+        <div class="row gx-5 gy-5">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-tuấn-kiệt-jr-1319911.jpg" class="card-img-top" alt="..." width="200px" height="300px" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-tuấn-kiệt-jr-1372134.jpg" class="card-img-top" alt="..." width="200px" height="300px" style="object-position: 100% 25%" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-tuấn-kiệt-jr-1391498.jpg" class="card-img-top" alt="..." width="200px" height="300px" style="object-position: 100% 10%" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-anna-shvets-4316425.jpg" class="card-img-top" alt="..." width="200px" height="300px" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-guilherme-almeida-1858175.jpg" class="card-img-top" alt="..." width="200px" height="300px" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/pexels-katie-e-3671083.jpg" class="card-img-top" alt="..." width="200px" height="300px" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Meet Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Girls -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/bootstrap.js"></script>
